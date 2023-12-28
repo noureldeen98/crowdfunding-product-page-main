@@ -1,0 +1,16 @@
+.headerStyle {
+  background-color: transparent;
+}
+
+.listStyle {
+  display: "flex" !important;
+  justify-content: "space-between" !important;
+  color: white !important;
+  font-size: large !important;
+}
+
+ul li a {
+  color: "white" !important;
+  font-size: "large";
+  font-weight: "bold";
+}

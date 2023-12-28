@@ -1,6 +1,7 @@
 import React from "react"
 import styles from './aboutUS.module.css'
 import {CardInLandingPage} from '../sharedComponents/fundingCard/fundingCardInLandingPage/card'
+import { ListFundings } from './../listingFundings/ListingFundings';
 
 export const AboutUs=()=>{
     return(
@@ -13,8 +14,9 @@ export const AboutUs=()=>{
             <br/>
              Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer to allow notepads, pens, and USB sticks to be stored under the stand</p>
            </div>
-
+           <ListFundings>
            <CardInLandingPage/>
+           </ListFundings>
          </div>
         </React.Fragment>
     )
