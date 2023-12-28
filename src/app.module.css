@@ -1,0 +1,56 @@
+/* * Small devices such as large phones (360px and up) */
+@media only screen and (min-width: 20em) {
+  .mainApp {
+    background-image: url("../assets/images/image-hero-mobile.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+  .mainApp {
+    background-image: url("../assets/images/image-hero-desktop.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  .mainApp {
+    background-image: url("../assets/images/image-hero-desktop.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
+  .mainApp {
+    background-image: url("../assets/images/image-hero-desktop.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+}
