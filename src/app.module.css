@@ -3,7 +3,8 @@
   .mainApp {
     background-image: url("../assets/images/image-hero-mobile.jpg");
     background-repeat: no-repeat;
-    height: 600px;
+    background-size: cover;
+    height: 400px;
     width: 100%;
     position: absolute;
     display: flex;
@@ -18,7 +19,8 @@
   .mainApp {
     background-image: url("../assets/images/image-hero-desktop.jpg");
     background-repeat: no-repeat;
-    height: 600px;
+    background-size: cover;
+    height: 400px;
     width: 100%;
     position: absolute;
     display: flex;
@@ -32,7 +34,8 @@
   .mainApp {
     background-image: url("../assets/images/image-hero-desktop.jpg");
     background-repeat: no-repeat;
-    height: 600px;
+    background-size: cover;
+    height: 400px;
     width: 100%;
     position: absolute;
     display: flex;
@@ -45,8 +48,9 @@
 @media only screen and (min-width: 80em) {
   .mainApp {
     background-image: url("../assets/images/image-hero-desktop.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 400px;
     width: 100%;
     position: absolute;
     display: flex;
